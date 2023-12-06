@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# server-01 login
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh_new/oleweps
+
+ssh ubuntu@54.209.171.151
